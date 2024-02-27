@@ -6,7 +6,7 @@ import 'dart:math';
 
 void main() {
   // Getting Player's Choice:
-  print('-------Rock-Paper-Scissors Game against Computer-------');
+  print('Rock-Paper-Scissors Game against Computer');
   print('Enter your choice: rock, paper, or scissors');
   String? playerChoice = stdin.readLineSync();
   // Checking Validity of Player's Choice
@@ -32,14 +32,10 @@ void main() {
       playerChoice == 'paper' && randomChoice == 'rock' ||
       playerChoice == 'scissors' && randomChoice == 'paper') {
     // Player wins
-    print('*************************************');
-    print('-------------- You win --------------');
-    print('*************************************');
+    print(' You win ');
   }
   // computer wins
   else {
-    print('*************************************');
-    print('----------- Computer wins -----------');
-    print('*************************************');
+    print('Computer wins ');
   }
 }

@@ -17,6 +17,6 @@ void main() {
     }
   }
   print(newList);
-  // alternative
+  // alternatively
    print([for (var i in myList) if (i < 5) i]);
 }
