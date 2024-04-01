@@ -1,6 +1,7 @@
 import 'Person.dart';
 import 'interest.dart';
 import 'laptop.dart';
+import 'all_contructors.dart';
 
 void main() {
   //------------------- for the class person--
@@ -23,4 +24,14 @@ void main() {
   //--------------------for the class laptop--
   Laptop l = Laptop();
   print("brand : ${l.brand} and price : ${l.price}");
+
+  //--------------------for the class student--
+  Student s1 = Student();
+  s1.showStudentDetails();
+
+  Student s2 = Student.namedConstructor("John", 30, "F", 123);
+  s2.showStudentDetails();
+
+  Student s3 = Student.parameterizedConstructor("John", 30, "M", 123);
+  s3.showStudentDetails();
 }
