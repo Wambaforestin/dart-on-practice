@@ -42,6 +42,16 @@ class Student {
     print("Student rollNo is : $studentRollNo");
   }
 
+  //example of a good used case of named constructor with a pre-defined value  for a parameter
+  Student.withDefaultValue(String name, String sex, int rollnom, int age, {int stamina = 100}) {
+    studentName = name;
+    studentGender = sex;
+    studentRollNo = rollnom;
+    studentAge = age;
+    print("The student stamina is $this.stamina");
+  }
+
+
   //note : In dart constructor overloading is not possible, so to achieve the same effect we use named constructors
   //overloading is a concept where a class can have more than one constructor with same name but different parameters
 }
