@@ -4,7 +4,7 @@ class Person {
   //defining properties
   String? name;
   int? age;
-  //constructor (named constructor)
+  //constructor (parametized contrauctors)
   Person({this.name, this.age});
 
   //method 1
