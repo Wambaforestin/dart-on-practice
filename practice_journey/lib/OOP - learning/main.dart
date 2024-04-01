@@ -1,4 +1,4 @@
-import 'Person.dart';
+import 'person.dart';
 import 'interest.dart';
 import 'laptop.dart';
 import 'all_contructors.dart';
