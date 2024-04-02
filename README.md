@@ -1,4 +1,4 @@
-![top image](/practice_journey/lib/assets/images/dart-practice.jpeg)
+![top image](/practice_journey/lib/assets/images/dart-image.png)
 
 # Dart Practice Repository
 
