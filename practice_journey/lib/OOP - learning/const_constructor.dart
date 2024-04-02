@@ -12,8 +12,13 @@ class Point {
 
 void main() {
   //creating an object of the class Point
-  const p1 = Point(x: 10, y: 20);
-  print('The point is at (${p1.x}, ${p1.y})');
+  Point p1 = const Point(x: 10, y: 20);
+  const Point p2 = Point(x: 10, y: 20);
+  const p3 = Point(x: 10, y: 20);
+  //all the 03 different ways of creating an object of the class Point are valid.
+  print(p1.x);
+  print(p2.x);
+  print(p3.x);
 }
 
 

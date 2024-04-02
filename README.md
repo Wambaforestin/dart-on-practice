@@ -6,8 +6,6 @@ Welcome to my Dart Practice Repository! This repository is a program based repos
 
 Before starting your journey as a flutter developer (cross plateform dev.) it's important and advisable to start by leaning the basing principles and advanced concepts of Dart programming.
 
-## Usage
-
 ### Prerequisites
 
 Make sure you have Dart SDK installed on your machine. You can download it from [Dart SDK](https://dart.dev/get-dart).
