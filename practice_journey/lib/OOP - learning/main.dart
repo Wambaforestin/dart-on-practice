@@ -1,3 +1,4 @@
+import 'encapsulation.dart';
 import 'person.dart';
 import 'interest.dart';
 import 'laptop.dart';
@@ -34,5 +35,15 @@ void main() {
 
   Student s3 = Student.parameterizedConstructor("John", 30, "M", 123);
   s3.showStudentDetails();
+
+  //--------------------for the class employee--
+  //demontrating how to use private variable and methods in another file.
+  Employee e = Employee();
+  e.name = "John";
+  e.id = 123;
+  e.salary = 50000.0;
+  e.joiningDate = DateTime.now();
+
+  e.showEmployeeDetails();
 
 }
