@@ -1,3 +1,5 @@
+![top image](/practice_journey/lib/assets/images/dart-practice.jpeg)
+
 # Dart Practice Repository
 
 Welcome to my Dart Practice Repository! This repository is a program based repository that contains questions Dart with solutions .
