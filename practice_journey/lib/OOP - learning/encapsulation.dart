@@ -8,17 +8,23 @@ class Employee {
   DateTime? _joiningDate;
 
   //getter and setter for the instance variable
-  String? get name => _name;
+  String? get name => _name!;
   set name(String? name) => _name = name;
 
-  int? get id => _id;
+  int? get id => _id!;
   set id(int? id) => _id = id;
 
-  double? get salary => _salary;
+  double? get salary => _salary!;
   set salary(double? salary) => _salary = salary;
 
-  DateTime? get joiningDate => _joiningDate;
-  set joiningDate(DateTime? joiningDate) => _joiningDate = joiningDate;
+  DateTime? get joiningDate => _joiningDate!;
+  set joiningDate(DateTime? joiningDate) {
+    if (joiningDate != null && joiningDate.isAfter(DateTime.now())) {
+     throw Exception("Joining date cannot be after the current date");
+    } else {
+      _joiningDate = joiningDate;
+    }
+  }
   //alternative way of writing getter and setter
 
   // String? get name {
@@ -74,7 +80,12 @@ main() {
   e.name = "John";
   e.id = 123;
   e.salary = 50000.0;
-  e.joiningDate = DateTime.now();
+  //putting a future date to show that date cannot be after the current date
+  // e.joiningDate = DateTime(2024, 10, 10);
+  //putting the current date
+  // e.joiningDate = DateTime.now();
+  //putting a past date
+  e.joiningDate = DateTime(2020, 10, 10);
 
   e.showEmployeeDetails();
 }

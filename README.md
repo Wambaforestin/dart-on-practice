@@ -156,15 +156,39 @@ Make sure you have Dart SDK installed on your machine. You can download it from 
 24. Create a class for a quantum Monte Carlo simulation system with properties such as particles and wavefunctions, and methods such as sample and estimate observables.
 25. Create a class for a high-performance computing system with properties such as processors and memory, and methods such as parallelize and optimize.
 
-### Advance Concepts ( Dart/HTML)
+### Advance Concepts (HTML Document Object Model and Dart Programming)
 
-Loading......
+1. How can you dynamically create an HTML element in Dart and append it to the DOM?
+2. Write a Dart function to toggle the visibility of an HTML element based on its ID.
+3. Implement a Dart program to fetch data from an API and dynamically display it on an HTML page.
+4. Create a Dart program to validate a form input and display error messages dynamically on the HTML page.
+5. Write a Dart function to add a CSS class to an HTML element based on user interaction.
+6. Develop a Dart program to create a simple slideshow using HTML images and buttons for navigation.
+7. Implement a Dart function to handle a click event on an HTML button and update the content of a div element dynamically.
+8. Write a Dart program to create a responsive navigation menu using HTML and CSS, and toggle its visibility using Dart.
+9. Develop a Dart function to fetch JSON data from a file or API and dynamically generate HTML elements to display the data in a table format.
+10. Create a Dart program to implement drag-and-drop functionality for HTML elements within a container.
+
+#### More on Dart/HTML
+
+1. Write a Dart program that selects an HTML element by its ID and changes its text content.
+2. Create a Dart function that takes a color name as a parameter and changes the background color of the body element in an HTML page.
+3. Write a Dart program that creates a new div element, sets its id, adds some text content, and appends it to the DOM.
+4. Develop a Dart application that listens for click events on a button and displays an alert with a message when the button is clicked.
+5. Implement a Dart class that represents a custom HTML element, including properties and methods to manipulate its appearance and behavior.
+6. Create a Dart program that uses query selectors to find all elements with a specific class and changes their style properties.
+7. Write a Dart script that dynamically creates a table with rows and columns based on data provided by the user.
+8. Develop a Dart web application that fetches JSON data from a server and displays it in a formatted way on the webpage.
+9. Implement a Dart program that uses drag-and-drop API to allow users to drag items from one list to another on a webpage.
+10. Create a complex Dart web application that includes form validation, local storage interaction, and server communication.
+
+These practical questions cover various aspects of using Dart with HTML DOM manipulation and provide opportunities to practice real-world scenarios.
 
 ### NOTE
 
-`1.You can also bring some of this questions to life using Dart and flutter after successfully learning Flutter.
+`1.You can also bring some of this questions to life using Dart and flutter after successfully learning Flutter.`
 
-2.Always remember to code following the SOLID principles for cleaner and more maintainable code`
+`2.Always remember to code following the SOLID principles for cleaner and more maintainable code`
 
 ## Additional Resources
 
